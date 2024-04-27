@@ -25,7 +25,7 @@ function Arrivals() {
                         {/* heading div */}
                         <div className='container ' style={{ marginBottom: "20px" }}>
                             {/* <h1 className='heading'>NEW ARRIVALS</h1> */}
-                            <Typography fontWeight={900} sx={{ fontSize: { xs: 25, sm: 32 }, paddingLeft:0}} className='payDayHeading' variant="h1">NEW ARRIVALS
+                            <Typography fontWeight={900} sx={{ fontSize: { xs: 25, sm: 32 }, paddingLeft:0}} className='heading' variant="h1">NEW ARRIVALS
                             </Typography>
                         </div>
                         {/* card div */}
