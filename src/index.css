@@ -1,0 +1,46 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: "Poppins";
+}
+
+/* App.jsx */
+.mainDiv{
+    width: 100%;
+    min-height: 100vh;
+}
+
+.mainDiv.dark{ 
+    background-color: #242323;
+}
+
+/* header.jsx */
+.dark .navBar{
+    background-color: #3e3e3e;
+}
+
+/* header.jsx */
+.dark .navBar a{
+    color: #fff;
+}
+
+/* home.jsx */
+.dark .homeDiv{
+    background-color: rgb(126, 126, 126);
+}
+
+/* arrival.jsx */
+.dark .arrivalsBox .container .heading{
+    color: #fff;
+}
+
+/* favourite.jsx */
+.dark .favouriteHeading{
+    color: #fff;
+}
+
+/* all card */
+.dark .cardHeading{
+    color: #fff;
+}

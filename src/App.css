@@ -1,0 +1,328 @@
+/* home.jsx */
+.homeDiv{
+    background-color:#f4f6f5;
+}
+
+.homeHeading{
+    flex-direction: column;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-left: 40px;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 72px;
+    display: flex;
+}
+
+.homeHeadingSpan1{
+    width: 63%;
+    background-color: #fff;
+    color: #000;
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.homeHeadingSpan2{
+    color: #000;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.homeHeadingSpan3{
+    color: #000;
+    background-color: #ebd96b;
+    width: 86%;
+    padding-left: 20px;
+}
+
+.homeHeadingSpan4{
+    color: #000;
+    padding-left: 20px;
+}
+
+.homePara{
+    margin-bottom: 20px;
+    padding-left: 58px;
+    padding-right: 80px;
+    font-size: 26px;
+    line-height: 24px;
+    margin-top: 21px;
+}
+
+.homeBttn{
+    background-color: #000;
+    border-radius: 7px;
+    margin-left: -42px;
+    padding: 12px 20px;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.homeBttn:hover{
+    background-color: #ebd96b;
+    color: #000;
+}
+
+.rightCol{
+    height: 100%;
+    flex-direction: column;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.homeImage{
+    max-width: 97%;
+    /* margin-top: 24%; */
+    height: 83%;
+}
+
+/* PayDay.jsx */
+
+.payDayHeading{
+    color: #000;
+    flex-direction: column;
+    margin-top: 30px !important;
+    padding-top: 30px;
+    padding-left: 40px;
+    display: flex;
+}
+
+.payDayHeading1{
+    width: auto;
+    color: #000;
+    background-color: #fff;
+    border-right: 20px #000;
+    margin-left: 0;
+    margin-right: 160px;
+    padding-left: 30px;
+    padding-right: 0;
+}
+
+.payDayHeading2{
+    color: #000;
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.payDayPara{
+    margin-top: 40px !important;
+    margin-bottom: 20px !important;
+    padding-left: 60px;
+    line-height: 24px !important;
+}
+
+.payDayParaSpan{
+    font-weight: 400;
+}
+
+/* footer.jsx */
+.footerHead{
+    color: #fff;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+}
+
+.footerPara{
+    color: #fff;
+    text-align: center;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.footerEmail{
+    height: 60px;
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* home.jsx */
+@media (max-width:1058px) {
+    .homeHeading{
+        font-size: 42px;
+        line-height: 60px;
+    }
+
+    .homeHeadingSpan1{
+        width: 39%;
+        padding-left: 5px;
+    }
+
+    .homeHeadingSpan2{
+        padding-top: 0px;
+        padding-left: 5px;
+    }
+    
+    .homeHeadingSpan3{
+        padding-left: 5px;
+        width: 57%;
+    }
+    
+    .homeHeadingSpan4{
+        padding-left: 5px;
+    }
+
+    .homePara{
+        margin-bottom: 38px;
+        padding-left: 37px;
+        font-size: 24px;
+        line-height: 31px;
+        margin-top: 43px;
+    }
+    
+    .homeBttn{
+        margin-left: -63px;
+        font-size: 14px;
+    }
+
+    .homeImage{
+        max-width: 97%;
+        height: 75%;
+    }
+}
+
+@media (max-width:898px){
+    .rightCol{
+        display: none;
+    }
+
+    .leftCol{
+        width: 100% !important;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .homeHeading {
+        font-size: 72px;
+        line-height: 72px;
+    }
+
+    .homeHeadingSpan1{
+        width: 72%;
+        padding-left: 30px;
+    }
+
+    .homeHeadingSpan2{
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+    
+    .homeHeadingSpan3{
+        width: 93%;
+        padding-left: 20px;
+    }
+    
+    .homeHeadingSpan4{
+        padding-left: 20px;
+    }
+
+    .homePara{
+        margin-bottom: 20px;
+        padding-left: 58px;
+        padding-right: 80px;
+        font-size: 26px;
+        line-height: 24px;
+        margin-top: 21px;
+    }
+    
+    .homeBttn{
+        background-color: #000;
+        border-radius: 7px;
+        margin-left: -42px;
+        padding: 12px 20px;
+        font-size: 18px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+    }
+} 
+
+@media (max-width:548px) {
+    /*making to original style */
+    .homeHeading {
+        flex-direction: column;
+        margin-top: 0px;
+        padding-top: 0px;
+        padding-left: 0px;
+        font-size: 43px;
+        font-weight: 900;
+        line-height: 55px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .homeHeadingSpan1 {
+        width: 76%;
+        background-color: #fff;
+        color: #000;
+        padding-left: 30px;
+    }
+
+    .homeHeadingSpan2 {
+        color: #000;
+        padding-top: 0px;
+        padding-left: 20px;
+    }
+
+    .homeHeadingSpan3 {
+        color: #000;
+        background-color: #ebd96b;
+        width: 93%;
+        padding-left: 20px;
+    }
+
+    .homeHeadingSpan4 {
+        color: #000;
+        padding-left: 20px;
+    }
+
+    .homePara {
+        margin-bottom: 20px;
+        padding-left: 75px;
+        padding-right: 75px;
+        font-size: 15px;
+        line-height: 24px;
+        margin-top: 15px;
+        text-align: center;
+    }
+
+    .shapeCol{
+        display: none;
+    }
+
+    .homeBttn {
+        background-color: #000;
+        border-radius: 7px;
+        margin-left: -3px;
+        padding: 10px 18px;
+        font-size: 11px;
+        font-weight: 500;
+        text-decoration: none;
+        color: white;
+    }
+}
